@@ -42,3 +42,7 @@ Installing the local Node.js environment
 2. This package will install Node.js v6.10.3 and npm v3.10.10 into /usr/local/
 3. To install Node.js, run npm install request from your terminal in the directory where your main Node.js file will be located
 4. Node.js was installed at /usr/local/bin/node , npm was installed at , /usr/local/bin/npm , Make sure that /usr/local/bin is in your $PATH.
+5. To install Request - type "npm install request" from your terminal in the directory where your main Node.js file will be located which is /usr/local/bin/node (permission denied fail notices unless you run as psuedo admin with sudo ("superuser do"), command is "sudo npm install request"
+6. Installing Cheerio - "npm install cheerio" from your terminal in the directory where your main Node.js file will be located
+7. To edit your alias commands - cd /Users/andrewdigenova open .bash_profile
+8. to run the above script with Node.js type "node SmashMag-Scrapping-Wunder.js
