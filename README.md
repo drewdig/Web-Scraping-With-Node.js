@@ -47,6 +47,17 @@ Installing the local Node.js environment
 7. To edit your alias commands - cd /Users/andrewdigenova open .bash_profile
 8. to run the above script with Node.js type "node SmashMag-Scrapping-Wunder.js
 
+IN YOUR BROWSER LINK
+Visit the page you want to scrape in your browser, being sure to record its URL.
+Find the element(s) you want data from, and figure out a jQuery selector for them.
+
+IN YOUR CODE LINK
+Use request to download the page at your URL.
+Pass the returned data into Cheerio so you can get your jQuery-like interface.
+Use the selector you wrote earlier to scrape your data from the page.
+
+
+
 for more information or to get more details on setting up the Node.js environment correctly see -
 How To Use node.js, request and cheerio to Set Up Simple Web-Scraping
 https://www.digitalocean.com/community/tutorials/how-to-use-node-js-request-and-cheerio-to-set-up-simple-web-scraping
