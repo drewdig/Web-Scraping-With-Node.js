@@ -56,7 +56,11 @@ Use request to download the page at your URL.
 Pass the returned data into Cheerio so you can get your jQuery-like interface.
 Use the selector you wrote earlier to scrape your data from the page.
 
-
+how to write a Jquery selector
+https://www.w3schools.com/jquery/trysel.asp
+example:
+$("p:first-of-type") is the selctor
+All <p> elements that are the first <p> element of their parent. is what it means
 
 for more information or to get more details on setting up the Node.js environment correctly see -
 How To Use node.js, request and cheerio to Set Up Simple Web-Scraping
