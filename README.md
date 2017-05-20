@@ -46,3 +46,8 @@ Installing the local Node.js environment
 6. Installing Cheerio - "npm install cheerio" from your terminal in the directory where your main Node.js file will be located
 7. To edit your alias commands - cd /Users/andrewdigenova open .bash_profile
 8. to run the above script with Node.js type "node SmashMag-Scrapping-Wunder.js
+
+for more information or to get more details on setting up the Node.js environment correctly see -
+How To Use node.js, request and cheerio to Set Up Simple Web-Scraping
+https://www.digitalocean.com/community/tutorials/how-to-use-node-js-request-and-cheerio-to-set-up-simple-web-scraping
+
