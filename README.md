@@ -65,6 +65,33 @@ All <p> elements that are the first <p> element of their parent. is what it mean
 another interactive Jquery selector
 http://www.tutorialsteacher.com/jquery/jquery-selectors
 
+Excellent artcile and website about how to scrap websites
+How to Scrape Web Pages With Node.js and jQuery
+https://code.tutsplus.com/tutorials/how-to-scrape-web-pages-with-nodejs-and-jquery--net-22478
+especially good is selector examples such as these:
+//I know .video-entry elements contain the regular sized thumbnails
+            //for each one of the .video-entry elements found
+            $videos.each(function (i, item) {
+               
+					 //I will use regular jQuery selectors
+                var $a = $(item).children('a'),
+                   
+						  //first anchor element which is children of our .video-entry item
+                    $title = $(item).find('.video-title .video-long-title').text(),
+                    
+						  //video title
+                    $time = $a.find('.video-time').text(),
+                    
+						  //video duration time
+                    $img = $a.find('span.clip img'); //thumbnail
+               
+					 //and add all that data to my items array
+                self.items[i] = {
+                    href: $a.attr('href'),
+                    title: $title.trim(),
+                    time: $time,
+
+
 for more information or to get more details on setting up the Node.js environment correctly see -
 How To Use node.js, request and cheerio to Set Up Simple Web-Scraping
 https://www.digitalocean.com/community/tutorials/how-to-use-node-js-request-and-cheerio-to-set-up-simple-web-scraping
