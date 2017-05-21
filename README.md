@@ -91,6 +91,19 @@ especially good is selector examples such as these:
                     title: $title.trim(),
                     time: $time,
 
+jQuery Selectors
+https://www.w3schools.com/jquery/jquery_ref_selectors.asp
+https://www.w3schools.com/jquery/jquery_selectors.asp
+
+Using jQuery selectors inside Firebug 
+(Firebug and FireFinder are extensions for Firefox that allow you to interact with HTML on a page and possibly try Jquery selectors)
+http://www.codechewing.com/library/jquery-selectors-inside-firebug/
+
+Note: tracking protection may interfere with Firebug results you need, so use "how to disable tracking protection" in Firefox
+https://support.mozilla.org/en-US/kb/tracking-protection-pbm#w_how-to-turn-tracking-protection-off
+
+Firstly, you need to make sure you’ve got a jQuery library running inside of the document. If you don’t already, do a Firebug include() inside the command window. Like this: include("//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"). See the link for more details.
+
 
 for more information or to get more details on setting up the Node.js environment correctly see -
 How To Use node.js, request and cheerio to Set Up Simple Web-Scraping
