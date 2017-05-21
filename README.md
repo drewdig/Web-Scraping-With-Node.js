@@ -62,6 +62,9 @@ example:
 $("p:first-of-type") is the selctor
 All <p> elements that are the first <p> element of their parent. is what it means
 
+another interactive Jquery selector
+http://www.tutorialsteacher.com/jquery/jquery-selectors
+
 for more information or to get more details on setting up the Node.js environment correctly see -
 How To Use node.js, request and cheerio to Set Up Simple Web-Scraping
 https://www.digitalocean.com/community/tutorials/how-to-use-node-js-request-and-cheerio-to-set-up-simple-web-scraping
