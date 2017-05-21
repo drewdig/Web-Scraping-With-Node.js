@@ -104,6 +104,15 @@ https://support.mozilla.org/en-US/kb/tracking-protection-pbm#w_how-to-turn-track
 
 Firstly, you need to make sure you’ve got a jQuery library running inside of the document. If you don’t already, do a Firebug include() inside the command window. Like this: include("//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"). See the link for more details.
 
+Also very helpful artcile
+How to Write a Web Scraper in Node.js
+by Johnny B. (Ionică Bizău)
+https://www.codementor.io/johnnyb/how-to-write-a-web-scraper-in-nodejs-du108266t
+scrapping from his own simple blog website at:
+https://ionicabizau.net
+maybe best way for me to practice writing Jquery selectors is to use Firefox / Firebug / Firefinder and test my own slector constructs on Jonny B's simple website
+
+
 
 for more information or to get more details on setting up the Node.js environment correctly see -
 How To Use node.js, request and cheerio to Set Up Simple Web-Scraping
