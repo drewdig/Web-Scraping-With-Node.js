@@ -111,6 +111,8 @@ https://www.codementor.io/johnnyb/how-to-write-a-web-scraper-in-nodejs-du108266t
 scrapping from his own simple blog website at:
 https://ionicabizau.net
 maybe best way for me to practice writing Jquery selectors is to use Firefox / Firebug / Firefinder and test my own slector constructs on Jonny B's simple website
+make sure to include Jquery library inside the firebug environement
+include("//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js")
 
 
 
