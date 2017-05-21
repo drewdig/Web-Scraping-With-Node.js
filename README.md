@@ -114,6 +114,11 @@ maybe best way for me to practice writing Jquery selectors is to use Firefox / F
 make sure to include Jquery library inside the firebug environement
 include("//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js")
 
+W3 Schools list of Jquery selectors
+https://www.w3schools.com/jquery/jquery_ref_selectors.asp
+
+my list of Jquery selectors
+$("h1").text() - gets text within all H1 tags
 
 
 for more information or to get more details on setting up the Node.js environment correctly see -
