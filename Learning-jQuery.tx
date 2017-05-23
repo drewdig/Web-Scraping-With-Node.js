@@ -1,0 +1,14 @@
+One of the most powerful aspects of jQuery is its ability to make selecting elements in the DOM easy. 
+The DOM serves as the interface between JavaScript and a web page; it provides a representation of the 
+source HTML as a network of objects rather than as plain text.
+
+This network takes the form of a family tree of elements on the page. When we refer to the relationships 
+that elements have with one another, we use the same terminology that we use when referring to family 
+relationships: parents, children, and so on.
+
+To help visualize the family tree structure of the DOM, we can use a number of software tools, 
+such as the Firebug plugin for Firefox or the Web Inspector in Safari or Chrome. 
+
+With this tree of elements at our disposal, we'll be able to use jQuery to efficiently locate any set of 
+elements on the page. Our tools to achieve this are jQuery selectors and traversal methods.
+
