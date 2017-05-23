@@ -15,3 +15,9 @@ request(url, function (error, response, body) {
     console.log("We’ve encountered an error: " + error);
   }
 });
+
+// selectors
+// $("h1").text() returns Ionică Bizău The Joy of Being a Mentor How I npm What to Do When Your Website is Broken
+// $('h1:contains(Joy)') returns <h1>The Joy of Being a Mentor</h1>
+// $("#article-title") returns nothing
+// $("article-info").parent() returns nothing
