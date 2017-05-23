@@ -13,10 +13,25 @@ With this tree of elements at our disposal, we'll be able to use jQuery to effic
 elements on the page. Our tools to achieve this are jQuery selectors and traversal methods.
 
 The three primary building blocks of selectors are: 
-
 tag name 
 ID
 class 
-
 They can be used either on their own or in combination with others.
+
+<ul id="selected-plays">
+  <li>Comedies
+    <ul>
+      <li><a href="/asyoulikeit/">As You Like It</a></li>
+      <li>All's Well That Ends Well</li>
+
+$('#selected-plays > li').addClass('horizontal');
+"Find each list item (li) that is a child (>) of the element with an ID of selected-plays (#selected-plays)"
+
+Attribute selectors Attribute selectors are a particularly helpful subset of CSS selectors. They allow 
+us to specify an element by one of its HTML attributes, such as a link's title attribute or an image's 
+alt attribute. For example, to select all images that have an alt attribute, we write the following: 
+
+$('img[alt]')
+
+
 
