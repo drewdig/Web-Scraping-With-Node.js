@@ -12,3 +12,11 @@ such as the Firebug plugin for Firefox or the Web Inspector in Safari or Chrome.
 With this tree of elements at our disposal, we'll be able to use jQuery to efficiently locate any set of 
 elements on the page. Our tools to achieve this are jQuery selectors and traversal methods.
 
+The three primary building blocks of selectors are: 
+
+tag name 
+ID
+class 
+
+They can be used either on their own or in combination with others.
+
